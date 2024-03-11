@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+    margin: 5%;
+    text-align: center;
+}
+
+header {
+    display: inline-block;
+}
+h1 {
+    background-color: white;
+    padding: 20px 50px;
+    
+    border-style: solid;
+    border-color: black;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+p {
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+div {
+    display: inline-block;
+    background-color:azure;
+    padding: 5px;
+    width: 350px;
+    height: 280px;
+    margin: 12px;
+    box-shadow: 1px 1px gray;
+}
+img {
+    width: 350px;
+    height: 250px;
+}
+h3 {
+    margin: 0%;
+}
+
+

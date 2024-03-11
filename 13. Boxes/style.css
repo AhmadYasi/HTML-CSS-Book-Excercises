@@ -1,0 +1,39 @@
+* {
+    margin: 5%;
+    text-align: center;
+}
+h1 span {
+    text-transform: uppercase;
+}
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: aqua;
+    padding: 20px;
+}
+.the {
+    font-size: 20px;
+    
+}
+.specialists {
+    font-size: 20px;
+    letter-spacing: 7px;
+    
+
+}
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 0px 3px;
+}
+a {
+    text-decoration: none;
+}

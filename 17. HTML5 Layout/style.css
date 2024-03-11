@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+body {
+    background-image: url("img/wood.jpg");
+    
+}
+
+body, h1, h2, h3, p, ul, li, a {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 150px auto;
+   
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #97958D;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.title-block {
+    display: inline-block;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    background-color: #ACABA4;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.navigation li {
+    padding: 0 20px;
+}
+
+.navigation a {
+    color: #333;
+    font-weight: 500;   
+}
+a:hover {
+    color: white;
+  }
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.content, .sidebar {
+    padding: 10px;
+}
+
+.course {
+    background-color: #f9f9f9;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.popular-recipes, .contact-info {
+    background-color: #f9f9f9;
+    margin: 0 0 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #AAACA5;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header, .navigation, main, .content, .sidebar {
+        flex-direction: column;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation li {
+        padding: 10px 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .course {
+        margin-right: 0;
+    }
+}

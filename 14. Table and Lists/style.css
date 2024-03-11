@@ -1,0 +1,63 @@
+body {
+    margin: 2%;
+    background-color: azure;
+}
+h1 {
+    color: rgb(53, 50, 50);
+}
+
+li {
+    list-style-image: url(./bullet.png);
+}
+
+th {
+    text-align: left;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(69, 139, 224);
+    padding: 10px;
+    border-width: 0.1ch;
+    
+}
+td {
+    border-color: black;
+    border-style: solid;
+    background-color: aqua;
+    padding: 5px;
+    border-width: 0.1ch;
+    
+}
+table {
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+tr {
+    margin: 0%;
+}
+
+.NY {
+    width: 100px;
+}
+.Chi {
+    width: 100px;
+}
+.SF {
+    width: 100px;
+}
+
+form {
+    padding: 10px;
+   
+    display: inline-block;
+    
+}
+
+.label {
+    margin-right: 50px;
+}
+#yes {
+    margin: 0ch;
+}
+#no {
+    margin: 0px;
+}

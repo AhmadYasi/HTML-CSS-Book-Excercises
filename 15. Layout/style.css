@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo {
+    padding: 10px;
+    
+}
+li {
+    display: inline;
+    margin: 0.5%;
+    
+}
+ul {
+    background-color: gray;
+    padding: 10px;
+}
+.feature {
+    background-color: gray;
+    padding: 10px;
+}
+
+.col1, .col2, .col3 {
+    display:inline-block;
+    background-color: gray;
+    padding: 10px;
+    
+    
+    
+}
+.col1 {
+    width: 30%;
+    margin: 10px; 
+}
+.col2 {
+    width: 30%;
+    margin: 10px;  
+}
+.col3 {
+    width: 30%; 
+    margin: 10px; 
+}
+
+.copy {
+    clear: both;
+    padding: 10px;
+    background-color: gray;
+}
